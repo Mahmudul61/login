@@ -1,0 +1,154 @@
+.manu-header{
+    background-color: lightblue;
+}
+.heading{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 100px;
+}
+.heading-list{
+    list-style: none;
+    display: inline;
+    margin-right: 15px;
+}
+.heading-link{
+    text-decoration: none;
+    color: black;
+
+}
+button{
+    font-size: 15px;
+    background-color: rgb(18, 86, 71);
+    color: white;
+    border: 1px solid black;
+    padding: 5px;
+}
+@media screen and (max-width:576px) {
+    .heading{
+        flex-direction: column;
+    }
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 100px;
+}
+.sub-content{
+    max-width: 300px;
+    min-height: 200px;
+    
+    padding: 10px;
+}
+@media screen and (max-width:576px) {
+    .heading{
+        gap: 50px;
+    }
+    .content{
+        flex-direction: column;
+    }
+}
+.main-div{
+    max-width: auto;
+    min-height: auto;
+}
+.content-text{
+    max-width: 300px;
+    min-height: 200px;
+    border: 1px solid black;
+    border: none;
+    margin-left: 400px;
+    text-align: center;
+    margin-top: 50px;
+}
+.parent-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    align-items: center;
+   margin-left: 200px;
+   margin-top: 50px;
+   
+}
+.child-img{
+    max-width: 250px;
+    min-height: 150px;
+    border: 1px solid black;
+    border: none;
+    padding: 10px;
+    background-color: rgb(239, 239, 238);
+    border-radius: 10px;
+    box-shadow: rgb(63, 57, 57) 50px , 10px;
+}
+h3, h2, .btn{
+    margin-left: 70px;
+    
+}
+img{
+    margin-left: 20px;
+}
+h3{
+    margin-top: 2px
+}
+h2{
+    margin-top: 8px;
+}
+.btn{
+    margin-bottom: 6px;
+    
+}
+.btn:hover{
+    background-color: rgb(4, 59, 126);
+    transition: 3s;
+    border-radius: 5px;
+}
+@media screen and (max-width:576px) {
+    .content-text{
+        margin-left: 60px;
+        
+    }
+    .parent-img{
+        grid-template-columns: 1fr;
+        margin-left: 20px;
+        overflow: hidden;
+        justify-items: center;
+        
+    }
+}
+
+.Login-From{
+    
+    display: flex;
+    flex-direction: column;
+   margin-top: 50px;
+   width: 50%;
+   justify-content: center;
+   align-items: center;
+   background-color: rgb(172, 227, 229);
+   margin-left: 300px;
+   padding: 10px;
+}
+.Login-From, input{
+    margin-top: 20px;
+}
+.submit{
+   font-size: 15px;
+   padding: 8px;
+   border-radius: 10px;
+}
+.login-h3{
+    text-align: center;
+}
+@media screen and (max-width:576px) {
+    .Login-From{
+        flex-direction: column;
+        margin-left: 130px;
+        margin-top: 50px;
+        padding: 10px;
+    }
+    .login-h3{
+        margin-left: 100px;
+    }
+}
